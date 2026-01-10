@@ -1,0 +1,35 @@
+# Data files - don't commit raw data
+data/*.csv
+data/*.xlsx
+data/*.parquet
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (optional - large files)
+models/*.pkl
+models/*.joblib
+
+# Keep folder structure
+!data/.gitkeep
+!models/.gitkeep
